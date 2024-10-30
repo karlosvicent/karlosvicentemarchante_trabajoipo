@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 1200px; /*es la propiedad que hace que se agrande o se haga pequeña le letra*/
+    margin: 0 auto;
+}
+
+.header {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.2),
+        rgba(0,0,0,0.3)),
+        url(u-scan.jpeg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #fffdfc;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #fffdfc;
+    display: block;
+    font-weight: 600;
+}
+
+.menu .navbar ul li a:hover { /*para cuando ponga el raton encima de un enlace se vea del color que quiero*/
+    color: #ce967b;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 75px;
+    line-height: 80px;
+    color: #f9fafc;
+    text-transform: uppercase; /* para poner en mayusc*/
+    margin-bottom: 35px;
+}
+
+.header-content p {
+    font-size: 24px;
+    color: #f9fafc;
+    padding: 0 250px;
+    margin-bottom: 60px;
+}
+
+
+.descripcion {
+    padding: 100px 0;
+    background-color: #e1e2e6;
+    position: relative;
+}
+
+.descripcion-content {
+    text-align: center;
+}
+
+.descripcion-content h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+
+.txt-p {
+    font-size: 16px;
+    color: #414247;
+    padding: 0 250px;
+    margin-bottom: 35px;
+}
+
+.descripcion-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+
+.descripcion-1 {
+    padding: 0 25px;
+}
+
+.descripcion-1 img {
+    width: 200px;
+}
+
+.descripcion-1 h3 {
+    color: #323337;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+
+
+
+.beneficios {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.2),
+        rgba(0,0,0,0.3)),
+        url(maxresdefault-Photoroom.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /*esto hace que se haga el efecto que se quede la imagen*/
+    padding: 100px 0;
+}
+
+.beneficios-content {
+    text-align: center;
+}
+
+.beneficios-content h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #f9fafc;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.beneficios-content p {
+    font-size: 16px;
+    color: #f9fafc;
+    margin-bottom: 25px;
+    padding: 0 100px;
+}
+
+
+.evolucion {
+    display: flex;
+}
+
+.evolucion-1 {
+    width: 50%;
+    padding: 100px 150px;
+    background-color: #e1e2e6;
+}
+
+.evolucion-2 {
+    background-image: url(uscan-hero2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    justify-content: center
+}
+
+.evolucion-1 h2 {
+    text-align: center;
+}
+
+.evolucion-1 p {
+    text-align: center;
+}
+
+
+h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: #414247;
+    margin: 25px 0 45px 0;
+}
+
+.footer {
+    padding: 40px 0;
+    background-color: #000;
+    text-align: center;
+    color: #f9fafc;
+}
+
+.footer-content p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.redes-sociales a {
+    margin: 0 10px;
+    right: 0;
+}
+
+.redes-sociales img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+
